@@ -1,24 +1,19 @@
 package concatenateconsecutivestring
 
-import (
-	"reflect"
-)
-
 /**
  * Based on Code-wars kata:
  * https://www.codewars.com/kata/56a5d994ac971f1ac500003e/go
  */
 
 // concatenated k consecutive strings of length k or grater
-func consecutiveString(array interface{}, k int) string {
-	strarr := reflect.ValueOf(array)
+func consecutiveString(strarr []string, k int) string {
 	result := ""
 
-	if strarr.Len() > 0 && k > 0 && k < strarr.Len() {
-		for i := 0; i < strarr.Len()-k+1; i++ {
+	if len(strarr) > 0 && k > 0 && k < len(strarr) {
+		for i := 0; i < len(strarr)-k+1; i++ {
 			current := ""
 			for j := i; j < i+k; j++ {
-				current += strarr.Index(j).String()
+				current += strarr[j]
 			}
 			if len(current) > len(result) {
 				result = current
