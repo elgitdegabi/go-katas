@@ -1,4 +1,4 @@
-package concatenateconsecutivestring
+package creditcardmask
 
 /**
  * Based on Code-wars kata:

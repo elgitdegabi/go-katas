@@ -1,4 +1,4 @@
-package concatenateconsecutivestring
+package creditcardmask
 
 import (
 	"testing"

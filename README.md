@@ -6,6 +6,7 @@ Some Golang katas / challenges to improve language skills, clean code & best pra
 * sum of odd numbers from triangle (code and unit test cases)
 * consecutive strings concatenation (code and unit test cases)
 * credit card mask (code and unit test cases)
+* split string into pairs (code and unit test cases)
 ## Other tips
 ### how to start your Golang project
 * https://www.youtube.com/watch?v=lQVhwSJpkqg
